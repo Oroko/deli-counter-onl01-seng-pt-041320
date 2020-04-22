@@ -15,3 +15,8 @@ def line(array)
     puts "The line is currently empty."
 end
 end
+
+def line(array)
+  if array.count > 1 
+end
+end
