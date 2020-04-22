@@ -22,8 +22,10 @@
 
 
 katz_deli = []
-def line()
-  
+def line(array)
+  if array.length == 0 
+    puts "This line is currently empty."
+  end
 end
 
 # def line(array)
