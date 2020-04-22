@@ -16,3 +16,9 @@ def line(array)
 end
 end
 
+def take_a_number(array, name)
+  array.push(name)
+  position = array.length
+  "Welcome, #{name}. You are number #{position} in line."
+
+end
