@@ -19,7 +19,7 @@ katz_deli = []
 def line(array)
   if array.count > 1 
     array.each_with_index do |name, index|
-      position = "#{name} is currently number #{index+1} on the line"
+      position = "The line is currently: #{index+1}. #{name}"
       puts position
     end
   else
