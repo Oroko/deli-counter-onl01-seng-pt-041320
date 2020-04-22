@@ -16,9 +16,9 @@ def line(array)
 end
 end
 
-def take_a_number(array, name)
-  array.push(name)
-  position = array.count
-  "Welcome, #{name}. You are number #{position} in line."
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  position = katz_deli.count
+  puts "Welcome, #{name}. You are number #{position} in line."
 
 end
