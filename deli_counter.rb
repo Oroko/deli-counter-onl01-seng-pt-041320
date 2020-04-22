@@ -17,8 +17,8 @@ end
 end
 
 def take_a_number(array, name)
-  array.push("name")
-  position = array.length
+  array.push(name)
+  position = array.count
   "Welcome, #{name}. You are number #{position} in line."
 
 end
