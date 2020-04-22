@@ -18,6 +18,6 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  #position = katz_deli.count
+  
   puts "Welcome, #{name}. You are number #{array.count} in line. "
 end
