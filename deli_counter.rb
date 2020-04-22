@@ -1,6 +1,6 @@
 # Write your code here
 
-
+require 'pry'
 
 
 katz_deli = []
@@ -21,6 +21,7 @@ def line(array)
     array.each_with_index do |name, index|
       position = "The line is currently: #{index+1}. #{name}"
       puts position
+      binding.pry
     end
   else
     puts "The line is currently empty."
